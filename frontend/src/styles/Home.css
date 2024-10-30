@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2, h3 {
+    color: #333;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+}
+
+input{
+    font-size: large;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: medium;
+}
+
+button:hover {
+    background-color: #036ad8;
+}
+
+#beforeOptStart {
+    height: 100%;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+div[style] {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+select{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: larger;
+    cursor: pointer;
+}
+
+#tokenManipulation{
+    display: flex;
+    vertical-align: middle;
+}
+
+#tokenDropdownAndButtons{
+    display: flex;
+    justify-content: space-between;
+}
+#tokenDropdown{
+    display: flex;
+    width: 50%;
+    padding: 5px 5px 5px 0px;
+}
+
+#overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 10;
+}
+
+dialog{
+    z-index: 11;
+    width: 70%;
+}
+
+#optChart{
+    height: 70%;
+}
+
+
+#header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
