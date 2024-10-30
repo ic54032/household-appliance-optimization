@@ -1,0 +1,10 @@
+#optChart{
+    height: 70%;
+    width: 80%;
+}
+
+#chartWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
